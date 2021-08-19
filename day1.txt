@@ -1,0 +1,56 @@
+/*
+
+Compiler transforms code written in a high-level programming language into the machine code, at once, before program runs, whereas an Interpreter coverts each high-level program statement, one by one, into the machine code, during program run.
+
+Compiled code runs faster while interpreted code runs slower.
+
+Compiler displays all errors after compilation, on the other hand, the Interpreter displays errors of each line one by one.
+
+Compiler is based on translation linking-loading model, whereas Interpreter is based on Interpretation Method.
+
+Compiler takes an entire program whereas the Interpreter takes a single line of code.
+*/
+
+
+
+
+
+class Prog {
+int roll;
+String name;
+float marks;
+void day1() {
+	System.out.println("roll num :" + roll);
+	System.out.println("Name : " + name);
+	System.out.println("Marks : " + marks);
+}
+}
+
+
+
+ public class Student{
+	 public static void  main(String[] args) {
+		 Prog ob1= new Prog();
+		 Prog ob2= new Prog();
+		 Prog ob3= new Prog();
+		 
+		 
+		 ob1.roll =252;
+		 ob1.name="karun";
+		 ob1.marks=30;
+		 
+		 ob2.roll=253;
+		 ob2.name="manoj";
+		 ob2.marks=35;
+		 
+		 ob3.roll=254;
+		 ob3.name="karthik";
+		 ob3.marks=29;
+		 
+		 ob1.day1();
+		 ob2.day1();
+		 ob3.day1();
+	 }
+ }
+		
+	
